@@ -1,5 +1,5 @@
 site_name: POS Kitchen Display (KDS)
-# site_url: https://mydomain.org/mysite
+site_url:  https://abichinger.github.io/odoo_aks_docs/19.0
 # repo_url: https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen
 plugins:
   - search
