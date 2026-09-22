@@ -5,12 +5,26 @@ hide:
 
 # Release Notes
 
-## 1.3.0
+## 2.0.0
 
-- Allow to define custom stages for each kitchen screen.
-- Add support for custom item states and routes.
-- Add preparation rules: require approval from multiple kitchen stages before a
-  matching order change line advances to the next state.
+!!! danger "BREAKING CHANGE"
+
+    The underlying data structures of the module has changed. The module needs to be reinstalled to work properly. All existing kitchen displays will be deleted and need to be recreated.
+
+- Allow to define custom stages for each kitchen screen
+- Add support for custom item states and routes
+- Add dispatchers to automatically route order lines to the next state
+- Add preparation rules: require approval from multiple kitchen stages before a matching order change line advances to the next state
+- Move preparation time alerts and notification sound to the stage configuration
+- Add primary color per kitchen screen
+- Add filter panel to filter orders by PoS, preset, product category and floor
+- Add order line domain to filter order lines
+- Add order change views to the backend
+- Add display type field to kitchen screens
+- Rename Kitchen Screen menu to Displays
+- Add multi-company support
+- Store data in a local Dexie.js database to improve performance
+
 
 ## 1.2.1
 
