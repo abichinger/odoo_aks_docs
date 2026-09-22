@@ -1,0 +1,59 @@
+name: docs
+
+# Publish the documentation to GitHub Pages.
+#
+# Each branch is deployed to its own subdirectory:
+#   https://abichinger.github.io/odoo_aks_docs/<branch>
+#   e.g. https://abichinger.github.io/odoo_aks_docs/19.0
+#
+# To publish a new Odoo version, add its branch to the list below.
+# No other change is required: the branch name is used as the destination
+# directory, and existing versions are kept.
+
+on:
+  push:
+    branches:
+      - 19.0
+      # - 20.0
+      # - 21.0
+  # Allow running the workflow manually from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ hashFiles('mkdocs.yml') }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install dependencies
+        run: pip install mkdocs-material mkdocs-glightbox
+
+      - name: Build site
+        run: mkdocs build --strict
+        env:
+          SITE_URL: https://abichinger.github.io/odoo_aks_docs/${{ github.ref_name }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          # Deploy into a subdirectory named after the branch.
+          destination_dir: ${{ github.ref_name }}
+          # Keep the other versions that are already published.
+          keep_files: true
