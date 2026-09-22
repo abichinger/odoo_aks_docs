@@ -83,4 +83,4 @@ When an item moves, the display looks for a matching route:
 4. If several routes match, the one with the lowest **Sequence** is used.
 
 ![Item Routes list](../assets/screenshots/item-routes.png)
-*Screenshot placeholder: Item Routes list with default routes.*
+*Item Routes list with default routes.*

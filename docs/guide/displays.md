@@ -23,7 +23,7 @@ station, or device. You can run as many displays as you need.
 5. Save the record.
 
 ![Kitchen Display form](../assets/screenshots/displays-form.png)
-*Screenshot placeholder: Kitchen Display form with the Stages, Filters, and Orderline Groups tabs.*
+*Kitchen Display form with the Stages, Filters, and Orderline Groups tabs.*
 
 ## Stages
 
@@ -64,8 +64,8 @@ Open a stage from the **Stages** tab of the display by clicking the gear icon ne
 - Items whose state has no stage are not shown on the display. The default
   **Done → Hide** route uses this to remove finished items from the screen.
 
-![Stage configuration](../assets/screenshots/stage-form.png)
-*Screenshot placeholder: Stage form with color, alerts, and notification sound.*
+<!-- ![Stage configuration](../assets/screenshots/stage-form.png)
+*Screenshot placeholder: Stage form with color, alerts, and notification sound.* -->
 
 ## Open a display
 
@@ -99,4 +99,4 @@ Each display keeps its own stages, filters, and settings. Use the **Sequence** f
 to control the order in the Displays list.
 
 ![Kitchen Display kanban view](../assets/screenshots/displays-kanban.png)
-*Screenshot placeholder: Displays kanban view with several kitchen screens.*
+*Displays kanban view with several kitchen screens.*

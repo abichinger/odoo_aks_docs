@@ -27,5 +27,5 @@ Open **Point of Sale ‣ KDS ‣ Preparation Rules**.
     Preparation rules only apply to **forward standard transitions**. Moving an item
     backward or canceling an order is never blocked by a preparation rule.
 
-![Preparation Rule form](../assets/screenshots/prep-rule-form.png)
-*Screenshot placeholder: Preparation Rule with required stages and product filter.*
+<!-- ![Preparation Rule form](../assets/screenshots/prep-rule-form.png)
+*Screenshot placeholder: Preparation Rule with required stages and product filter.* -->

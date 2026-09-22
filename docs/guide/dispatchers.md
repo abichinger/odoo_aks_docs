@@ -47,4 +47,4 @@ order, so later lines follow the same destination.
 4. When an item enters *Dispatch*, the dispatcher sends it to the less busy kitchen.
 
 ![Dispatcher form](../assets/screenshots/dispatcher-form.png)
-*Screenshot placeholder: Dispatcher with strategy and computed to states.*
+*Dispatcher with strategy and computed to states.*

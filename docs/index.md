@@ -80,11 +80,11 @@ The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restau
 
 Optional modules add extra features:
 
-- [**POS Kitchen Display - Self Order**](https://apps.odoo.com/apps/modules/19.0/aks_self_order) —
+- [**POS Kitchen Display - Self Order**] —
   show orders from the self-order menu
-- [**POS Order Status Screen**](https://apps.odoo.com/apps/modules/19.0/ab_pos_order_status) —
+- [**POS Order Status Screen**] —
   Order status screen
-- [**POS Stock Sync**](https://apps.odoo.com/apps/modules/19.0/abichinger_pos_stock) —
+- [**POS Stock Sync**] —
   enable or disable individual dishes from the kitchen display
 
 ## Installation

@@ -30,5 +30,5 @@ For the local printer, choose the print mode in the display settings:
     If no printer is found, make sure a printer is configured. POS categories on the
     printer can be left empty.
 
-![Printer selection](../assets/screenshots/printer-menu.png)
-*Screenshot placeholder: Printer selection menu on an order card.*
+<!-- ![Printer selection](../assets/screenshots/printer-menu.png)
+*Screenshot placeholder: Printer selection menu on an order card.* -->
