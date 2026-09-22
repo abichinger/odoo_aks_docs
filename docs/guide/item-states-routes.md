@@ -9,7 +9,7 @@ Display. Together they decide which stage an item is in and where it can move ne
 
 ## Item States
 
-Open **Point of Sale → KDS → Item States**.
+Open **Point of Sale ‣ KDS ‣ Item States**.
 
 | Field | Description |
 | --- | --- |
@@ -31,7 +31,7 @@ this state.
 
 ## Item Routes
 
-Open **Point of Sale → KDS → Item Routes**.
+Open **Point of Sale ‣ KDS ‣ Item Routes**.
 
 | Field | Description |
 | --- | --- |

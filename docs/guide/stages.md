@@ -41,8 +41,10 @@ Choose one of the following:
 - **Drip Echo**
 - **Rooster**
 
-> Browsers may block sound until the user interacts with the page. If autoplay is
-> blocked, the display shows a dialog with an **Enable** button.
+!!! warning "Autoplay may be blocked"
+
+    Browsers may block sound until the user interacts with the page. If autoplay is
+    blocked, the display shows a dialog with an **Enable** button.
 
 ## Rules and constraints
 

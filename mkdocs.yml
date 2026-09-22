@@ -1,18 +1,49 @@
 site_name: POS Kitchen Display (KDS)
 # site_url: https://mydomain.org/mysite
+# repo_url: https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen
 theme:
   name: material
+  logo: assets/icon.png
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    # - primary: blue
+    # - accent: deep orange
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: kds
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.snippets:
+      auto_append:
+        - includes/links.md
 nav:
   - Home: index.md
   - Demo: demo.md
   - How-to Guides:
     - Set up a Kitchen Display: guide/displays.md
-    - Stages and Alerts: guide/stages.md
+    - Configure the KDS: guide/configuration.md
+    # - Stages and Alerts: guide/stages.md
     - Item States and Item Routes: guide/item-states-routes.md
     - Preparation Rules: guide/prep-rules.md
     - Dispatchers: guide/dispatchers.md
-    - Configure the KDS: guide/configuration.md
     - Printing: guide/printing.md
-    - Extensions: guide/extensions.md
+    # - Extensions: guide/extensions.md
   - Troubleshooting: troubleshooting.md
   - Release Notes: release-notes.md

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # POS Kitchen Display (KDS)
 
 The **POS Kitchen Display (KDS)** module shows the orders taken at the Point of Sale
@@ -5,6 +10,8 @@ directly in the kitchen. Orders appear in real time, move through the stages you
 define, and disappear once they are done.
 
 The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restaurant`.
+
+[Get it on the Odoo App Store](https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 ## What you get
 
@@ -27,10 +34,12 @@ The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restau
 
 Optional modules add extra features:
 
-- [`abichinger_pos_stock`](https://apps.odoo.com/apps/modules/18.0/abichinger_pos_stock) —
-  enable or disable individual dishes from the screen.
-- [`aks_self_order`](https://apps.odoo.com/apps/modules/18.0/aks_self_order) —
-  show orders from the self-order menu and display the current wait time.
+- [**POS Kitchen Display - Self Order**](https://apps.odoo.com/apps/modules/19.0/aks_self_order) —
+  show orders from the self-order menu
+- [**POS Order Status Screen**](https://apps.odoo.com/apps/modules/19.0/ab_pos_order_status) —
+  Order status screen
+- [**POS Stock Sync**](https://apps.odoo.com/apps/modules/19.0/abichinger_pos_stock) —
+  enable or disable individual dishes from the kitchen display
 
 ## Installation
 
@@ -43,15 +52,7 @@ Optional modules add extra features:
 
 ## Where to find the settings
 
-After installation, open **Point of Sale → KDS**. The menu contains:
-
-| Menu item | Purpose |
-| --- | --- |
-| **Displays** | Create and manage Kitchen Displays. |
-| **Item States** | Define the states an item can be in. |
-| **Item Routes** | Define how items move between states. |
-| **Preparation Rules** | Require approval from several stages before an item advances. |
-| **Dispatchers** | Distribute items across several destinations (for example, two kitchens). |
+After installation, open **Point of Sale ‣ KDS** to configure your displays, stages, and more.
 
 ## Next steps
 

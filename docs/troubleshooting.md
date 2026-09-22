@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Troubleshooting
 
 ## The screen does not update in real time
@@ -59,7 +64,7 @@ whose path starts with `/websocket/` to the LiveChat worker. Start Odoo in
 of the proxy ones.
 
 See the
-[Multi-processing configuration sample](https://www.odoo.com/documentation/17.0/administration/on_premise/deploy.html#id8).
+[Multi-processing configuration sample](https://www.odoo.com/documentation/19.0/administration/on_premise/deploy.html#id8).
 
 ## Printing issues
 
@@ -75,7 +80,7 @@ See the
 
 ## Deactivate dishes does not work
 
-- Install [`abichinger_pos_stock`](https://apps.odoo.com/apps/modules/18.0/abichinger_pos_stock).
+- Install [**POS Stock Sync**].
 - Verify the product is available in POS.
 
 ## The notification sound does not play

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Demo
 
 Try the module without installing it.

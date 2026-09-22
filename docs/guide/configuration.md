@@ -16,8 +16,10 @@ Open the **Filters** tab of a display.
 Both domains use the standard Odoo domain syntax. The default `[]` includes
 everything. Use them to hide, for example, a specific product or a specific floor.
 
-> Only orders from **open POS sessions** are loaded. The order domain is applied on
-> top of that.
+!!! info "Open sessions only"
+
+    Only orders from **open POS sessions** are loaded. The order domain is applied on
+    top of that.
 
 ## Order line groups
 
@@ -42,8 +44,7 @@ Click the gear icon in the top-right corner of the display to open the settings 
 
 | Setting | Description |
 | --- | --- |
-| **Products** | Enable or disable individual dishes. Requires `abichinger_pos_stock`. |
-| **Current wait time** | The wait time in minutes shown to customers. Set to `0` to disable. Requires `aks_self_order`. |
+| **Products** | Enable or disable individual dishes. Requires [**POS Stock Sync**]. |
 | **Zoom** | Adjust the zoom level of the display. |
 | **Merge order changes** | Merge several changes of the same order into one card. |
 | **Order of orders** | Sort by **duration**, **tracking number**, or **takeout time**. |
@@ -52,8 +53,9 @@ Click the gear icon in the top-right corner of the display to open the settings 
 | **Cleanup** | Delete the database records of closed sessions. |
 | **Reset** | Reset all settings to their defaults. |
 
-> Settings are stored in the browser. Create a bookmark to save your settings for a
-> display.
+!!! tip "Save your settings"
+
+    Settings are stored in the browser. You can also create a bookmark to save your settings for a display.
 
 ## Filters panel
 
@@ -74,10 +76,10 @@ by:
 | **Search** | Search orders on the current stage. |
 | **Dark mode** | Toggle between light and dark mode. |
 | **Priority** | Click the star on an order to mark it as high priority. |
-| **Order status screen** | Open the order status screen. Requires `ab_pos_order_status`. |
 | **Customer details** | Show the customer name, phone, email, and address. |
 | **Order line timeline** | Show the changes made to an order line. |
 
+<!--
 ## URL parameters
 
 You can control the display with URL parameters. This is useful for kiosk setups and
@@ -107,6 +109,7 @@ Example:
 ```
 /abichinger_kitchen_screen/app/?ks=1&theme=dark&overview=show
 ```
+-->
 
 ## Real-time updates
 

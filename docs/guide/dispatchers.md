@@ -3,7 +3,7 @@
 A **Dispatcher** sends items to one of several destinations. Use it when the same
 product can be prepared in more than one kitchen and you want to balance the load.
 
-Open **Point of Sale → KDS → Dispatchers**.
+Open **Point of Sale ‣ KDS ‣ Dispatchers**.
 
 | Field | Description |
 | --- | --- |
@@ -23,7 +23,7 @@ The **Item Routes** and **To States** fields are computed from the item routes w
 | Strategy | Behavior |
 | --- | --- |
 | **Least Busy** | Picks the destination with the fewest open order change lines. |
-| **Round Robin** | Picks the next destination by sequence, after the last one used. |
+| **Round Robin** | Picks the next destination in a circular fashion. |
 
 ## Joint Order
 
@@ -42,9 +42,9 @@ order, so later lines follow the same destination.
 ## Example: two kitchens
 
 1. Create two item states, for example *Kitchen A* and *Kitchen B*.
-2. Create two item routes from *Cooking*: one to *Kitchen A* and one to *Kitchen B*.
-3. Create a dispatcher with **Current State** = *Cooking* and strategy **Least Busy**.
-4. When an item leaves *Cooking*, the dispatcher sends it to the less busy kitchen.
+2. Create two item routes from *Dispatch*: one to *Kitchen A* and one to *Kitchen B*.
+3. Create a dispatcher with **Current State** = *Dispatch* and strategy **Least Busy**.
+4. When an item enters *Dispatch*, the dispatcher sends it to the less busy kitchen.
 
 ![Dispatcher form](../assets/screenshots/dispatcher-form.png)
 *Screenshot placeholder: Dispatcher with strategy and computed to states.*
