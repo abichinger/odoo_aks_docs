@@ -15,17 +15,63 @@ The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restau
 
 ## What you get
 
-| Feature | Description |
-| --- | --- |
-| Real-time orders | Orders taken by the waiter appear in the kitchen immediately. |
-| Progress tracking | Items move through stages such as **Cooking**, **Ready**, and **Done**. |
-| Responsive design | The interface adapts to tablets, phones, and desktops. |
-| Multiple displays | Run one display per kitchen, station, or screen. |
-| Filters | Filter orders by product category, floor, Point of Sale, or preset. |
-| Overview | A side panel summarizes the items that still need to be prepared. |
-| Printing | Print order slips to ePOS, IoT, or local printers. |
-| Alerts | Highlight orders that exceed a preparation time and play a sound. |
-| Custom workflow | Define your own item states, routes, stages, and dispatch rules. |
+<div class="grid cards" markdown>
+
+-   :material-sync:{ .lg .middle } __Real-time orders__
+
+    ---
+
+    Orders taken by the waiter appear in the kitchen immediately.
+
+-   :material-progress-check:{ .lg .middle } __Progress tracking__
+
+    ---
+
+    Items move through stages such as **Cooking**, **Ready**, and **Done**.
+
+-   :material-cellphone:{ .lg .middle } __Responsive design__
+
+    ---
+
+    The interface adapts to tablets, phones, and desktops.
+
+-   :material-monitor-multiple:{ .lg .middle } __Multiple displays__
+
+    ---
+
+    Run one display per kitchen, station, or screen.
+
+-   :material-filter:{ .lg .middle } __Filters__
+
+    ---
+
+    Filter orders by product category, floor, Point of Sale, or preset.
+
+-   :material-view-dashboard:{ .lg .middle } __Overview__
+
+    ---
+
+    A side panel summarizes the items that still need to be prepared.
+
+-   :material-printer:{ .lg .middle } __Printing__
+
+    ---
+
+    Print order slips to ePOS, IoT, or local printers.
+
+-   :material-alert:{ .lg .middle } __Alerts__
+
+    ---
+
+    Highlight orders that exceed a preparation time and play a sound.
+
+-   :material-sitemap:{ .lg .middle } __Custom workflow__
+
+    ---
+
+    Define your own item states, routes, stages, and dispatch rules.
+
+</div>
 
 ## Requirements
 

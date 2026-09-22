@@ -69,15 +69,51 @@ by:
 
 ## Display features
 
-| Feature | Description |
-| --- | --- |
-| **Stages** | Switch between stages with the tabs at the top. |
-| **Overview** | A side panel that summarizes the items still to be prepared, grouped by category. |
-| **Search** | Search orders on the current stage. |
-| **Dark mode** | Toggle between light and dark mode. |
-| **Priority** | Click the star on an order to mark it as high priority. |
-| **Customer details** | Show the customer name, phone, email, and address. |
-| **Order line timeline** | Show the changes made to an order line. |
+<div class="grid cards" markdown>
+
+-   :material-view-column:{ .lg .middle } __Stages__
+
+    ---
+
+    Switch between stages with the tabs at the top.
+
+-   :material-view-dashboard:{ .lg .middle } __Overview__
+
+    ---
+
+    A side panel that summarizes the items still to be prepared, grouped by category.
+
+-   :material-magnify:{ .lg .middle } __Search__
+
+    ---
+
+    Search orders on the current stage.
+
+-   :material-theme-light-dark:{ .lg .middle } __Dark mode__
+
+    ---
+
+    Toggle between light and dark mode.
+
+-   :material-star:{ .lg .middle } __Priority__
+
+    ---
+
+    Click the star on an order to mark it as high priority.
+
+-   :material-account:{ .lg .middle } __Customer details__
+
+    ---
+
+    Show the customer name, phone, email, and address.
+
+-   :material-timeline-clock:{ .lg .middle } __Order line timeline__
+
+    ---
+
+    Show the changes made to an order line.
+
+</div>
 
 <!--
 ## URL parameters
