@@ -36,7 +36,9 @@ Open the **Orderline Groups** tab of a display.
 | **Product Attributes** | Optional attribute values to include. |
 
 ![Orderline Groups tab](../assets/screenshots/orderline-groups.png)
-*Orderline Groups tab with categories and attributes.*
+/// caption
+Orderline Groups tab with categories and attributes.
+///
 
 ## On-screen settings
 

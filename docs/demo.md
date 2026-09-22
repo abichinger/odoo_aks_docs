@@ -12,4 +12,6 @@ Try the module without installing it.
 Open the Point of Sale, take an order, and watch it appear on the Kitchen Display.
 
 ![Kitchen Display interface](assets/screenshots/demo-overview.png)
-*Kitchen Display showing Cooking, Ready, and Done stages.*
+/// caption
+Kitchen Display showing Cooking, Ready, and Done stages.
+///

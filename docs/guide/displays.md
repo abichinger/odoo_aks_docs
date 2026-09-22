@@ -23,7 +23,9 @@ station, or device. You can run as many displays as you need.
 5. Save the record.
 
 ![Kitchen Display form](../assets/screenshots/displays-form.png)
-*Kitchen Display form with the Stages, Filters, and Orderline Groups tabs.*
+/// caption
+Kitchen Display form with the Stages, Filters, and Orderline Groups tabs.
+///
 
 ## Stages
 
@@ -99,4 +101,6 @@ Each display keeps its own stages, filters, and settings. Use the **Sequence** f
 to control the order in the Displays list.
 
 ![Kitchen Display kanban view](../assets/screenshots/displays-kanban.png)
-*Displays kanban view with several kitchen screens.*
+/// caption
+Displays kanban view with several kitchen screens.
+///
