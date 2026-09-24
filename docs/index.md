@@ -13,6 +13,8 @@ The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restau
 
 [Get it on the Odoo App Store](https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
+![Kitchen Display interface](assets/screenshots/demo-overview.png)
+
 ## What you get
 
 <div class="grid cards" markdown>
