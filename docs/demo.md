@@ -7,7 +7,7 @@ hide:
 
 Try the module without installing it.
 
-**Live demo:** <https://odoo19-pos.504050.xyz/odoo/point-of-sale>
+**Live demo:** <https://odoo20-pos.504050.xyz/odoo/point-of-sale>
 
 Open the Point of Sale, take an order, and watch it appear on the Kitchen Display.
 

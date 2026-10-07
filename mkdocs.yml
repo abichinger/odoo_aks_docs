@@ -1,8 +1,7 @@
 site_name: POS Kitchen Display (KDS)
-# The site is published per branch, e.g. https://abichinger.github.io/odoo_aks_docs/19.0
+# The site is published per branch, e.g. https://abichinger.github.io/odoo_aks_docs/20.0
 # The CI workflow overrides this via the SITE_URL environment variable.
-site_url: !ENV [SITE_URL, "https://abichinger.github.io/odoo_aks_docs/19.0"]
-# repo_url: https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen
+site_url: !ENV [SITE_URL, "https://abichinger.github.io/odoo_aks_docs/20.0"]
 plugins:
   - search
   - glightbox

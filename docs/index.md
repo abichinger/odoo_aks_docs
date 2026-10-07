@@ -9,9 +9,9 @@ The **POS Kitchen Display (KDS)** module shows the orders taken at the Point of 
 directly in the kitchen. Orders appear in real time, move through the stages you
 define, and disappear once they are done.
 
-The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restaurant`.
+The module is built for Odoo and depends on `point_of_sale` and `pos_restaurant`.
 
-[Get it on the Odoo App Store](https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen){ .md-button .md-button--primary target="_blank" rel="noopener" }
+[Get it on the Odoo App Store](https://apps.odoo.com/apps/modules/abichinger_kitchen_screen){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
 ![Kitchen Display interface](assets/screenshots/demo-overview.png)
 
@@ -77,7 +77,7 @@ The module is built for Odoo 19.0 and depends on `point_of_sale` and `pos_restau
 
 ## Requirements
 
-- Odoo Community or Enterprise, version 19.0.
+- Odoo Community or Enterprise, version 20.0.
 - The `point_of_sale` and `pos_restaurant` modules (installed automatically).
 
 Optional modules add extra features:

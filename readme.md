@@ -1,7 +1,7 @@
 # aks_docs
 
 Documentation site for the **POS Kitchen Display (KDS)** Odoo module
-([`abichinger_kitchen_screen`](https://apps.odoo.com/apps/modules/19.0/abichinger_kitchen_screen)).
+([`abichinger_kitchen_screen`](https://apps.odoo.com/apps/modules/abichinger_kitchen_screen)).
 
 Built with [MkDocs](https://www.mkdocs.org/) and
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).

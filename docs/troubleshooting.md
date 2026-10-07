@@ -64,7 +64,7 @@ whose path starts with `/websocket/` to the LiveChat worker. Start Odoo in
 of the proxy ones.
 
 See the
-[Multi-processing configuration sample](https://www.odoo.com/documentation/19.0/administration/on_premise/deploy.html#id8).
+[Multi-processing configuration sample](https://www.odoo.com/documentation/20.0/administration/on_premise/deploy.html#id8).
 
 ## Printing issues
 
